@@ -26,4 +26,3 @@ def prever_preco(especificacoes_cada: EspecificacoesCasa):
     preco_estimado = modelo.predict(dados_entrada)[0]
     preco_estimado_formatado = "{:.2f}".format(preco_estimado)
     return EspecificacoesCasaResponse(preco_estimado=float(preco_estimado_formatado), dados=especificacoes_cada)
-    # return EspecificacoesCasaResponse(preco_estimado=preco_estimado, dados=especificacoes_cada)

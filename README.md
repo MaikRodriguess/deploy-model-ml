@@ -1,2 +1,2 @@
 # deploy-model-ml
- API de Modelo de ml para previsão de valores de aluguel
+ Repositório Git para um projeto que utiliza FastAPI para criar uma API RESTful que prevê preços de casas com base em suas especificações, utilizando um modelo de machine learning pré-treinado.
